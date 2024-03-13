@@ -1,9 +1,6 @@
 pipeline {
     agent any
-    tools {
-        jdk 'jdk-21'
-    }
-    stages {
+   stages {
         stage('Build') {
             steps {
                 echo "Fetching the source code from GitHub"
