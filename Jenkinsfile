@@ -1,4 +1,5 @@
 pipeline {
+agent any
    stages {
 // making different stages to perform tasks
         stage('Build') {
