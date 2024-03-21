@@ -1,7 +1,7 @@
 pipeline {
 agent any
    stages {
-// making different stages to perform tasks
+// making different stages to perform different tasks
         stage('Build') {
             steps {
                 echo "Fetching the source code from GitHub"
